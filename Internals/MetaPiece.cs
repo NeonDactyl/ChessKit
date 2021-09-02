@@ -1,13 +1,12 @@
 ﻿using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.Linq;
-using JetBrains.Annotations;
 using NeonDactyl.ChessLogic.Primitives;
 
 namespace NeonDactyl.ChessLogic.Internals
 {
     /// <summary>Represents piece Type</summary>
-    [Immutable, PublicAPI]
+    [Immutable]
     public sealed class MetaPiece
     {
         /// <summary>Piece type</summary>
