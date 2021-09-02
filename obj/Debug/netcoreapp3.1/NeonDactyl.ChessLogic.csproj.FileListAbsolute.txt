@@ -1,0 +1,9 @@
+C:\Users\treyw\source\repos\DotNetEloBot\NeonDactyl.ChessLogic\obj\Debug\netcoreapp3.1\NeonDactyl.ChessLogic.csprojAssemblyReference.cache
+C:\Users\treyw\source\repos\DotNetEloBot\NeonDactyl.ChessLogic\obj\Debug\netcoreapp3.1\NeonDactyl.ChessLogic.AssemblyInfoInputs.cache
+C:\Users\treyw\source\repos\DotNetEloBot\NeonDactyl.ChessLogic\obj\Debug\netcoreapp3.1\NeonDactyl.ChessLogic.AssemblyInfo.cs
+C:\Users\treyw\source\repos\DotNetEloBot\NeonDactyl.ChessLogic\obj\Debug\netcoreapp3.1\NeonDactyl.ChessLogic.csproj.CoreCompileInputs.cache
+C:\Users\treyw\source\repos\DotNetEloBot\NeonDactyl.ChessLogic\bin\Debug\netcoreapp3.1\NeonDactyl.ChessLogic.deps.json
+C:\Users\treyw\source\repos\DotNetEloBot\NeonDactyl.ChessLogic\bin\Debug\netcoreapp3.1\NeonDactyl.ChessLogic.dll
+C:\Users\treyw\source\repos\DotNetEloBot\NeonDactyl.ChessLogic\bin\Debug\netcoreapp3.1\NeonDactyl.ChessLogic.pdb
+C:\Users\treyw\source\repos\DotNetEloBot\NeonDactyl.ChessLogic\obj\Debug\netcoreapp3.1\NeonDactyl.ChessLogic.dll
+C:\Users\treyw\source\repos\DotNetEloBot\NeonDactyl.ChessLogic\obj\Debug\netcoreapp3.1\NeonDactyl.ChessLogic.pdb

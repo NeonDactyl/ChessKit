@@ -1,0 +1,57 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "NeonDactyl.ChessLogic/1.0.0": {
+        "dependencies": {
+          "JetBrains.Annotations": "9.1.1",
+          "morelinq": "3.3.2"
+        },
+        "runtime": {
+          "NeonDactyl.ChessLogic.dll": {}
+        }
+      },
+      "JetBrains.Annotations/9.1.1": {
+        "runtime": {
+          "lib/net20/JetBrains.Annotations.dll": {
+            "assemblyVersion": "9.1.1.0",
+            "fileVersion": "9.1.1.0"
+          }
+        }
+      },
+      "morelinq/3.3.2": {
+        "runtime": {
+          "lib/netstandard2.0/MoreLinq.dll": {
+            "assemblyVersion": "3.3.2.0",
+            "fileVersion": "3.3.2.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "NeonDactyl.ChessLogic/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "JetBrains.Annotations/9.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-i84y3oJSleEkruG3tjjiN7yf+rLoU5G2edxkZIBnncke9xodzmhZq1DNjn/A1lZJIEJfKZ0sBP2AlvqG8sw+sw==",
+      "path": "jetbrains.annotations/9.1.1",
+      "hashPath": "jetbrains.annotations.9.1.1.nupkg.sha512"
+    },
+    "morelinq/3.3.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MQc8GppZJLmjvcpEdf3EkC6ovsp7gRWt2e5mC7dcIOrgwSc+yjFd3JQ0iRqr3XrUT6rb/phv0IkEmBtbfVA7AQ==",
+      "path": "morelinq/3.3.2",
+      "hashPath": "morelinq.3.3.2.nupkg.sha512"
+    }
+  }
+}

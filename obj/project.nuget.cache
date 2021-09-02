@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "UqT1rG0XwLQcsYHBPUE90tzS8xgmfZ86R+HuhMkPLLOYJBbizd4UD/CSj6Akm9aNjXZHVe9UjA6Px8xvdwcRHA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\treyw\\source\\repos\\DotNetEloBot\\NeonDactyl.ChessLogic\\NeonDactyl.ChessLogic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\treyw\\.nuget\\packages\\jetbrains.annotations\\9.1.1\\jetbrains.annotations.9.1.1.nupkg.sha512",
+    "C:\\Users\\treyw\\.nuget\\packages\\morelinq\\3.3.2\\morelinq.3.3.2.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'JetBrains.Annotations 9.1.1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "JetBrains.Annotations",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}
