@@ -2,6 +2,14 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Description>Port of marhoily's ChessKit.ChessLogic to .NET Core 3.1 class library</Description>
+    <Platforms>AnyCPU;x64</Platforms>
+    <PackageProjectUrl>https://github.com/NeonDactyl/ChessKit</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/NeonDactyl/ChessKit</RepositoryUrl>
+    <RepositoryType>Personal</RepositoryType>
+    <PackageTags>chess san pgn chessboard .net</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>

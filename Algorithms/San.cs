@@ -171,10 +171,10 @@ namespace NeonDactyl.ChessLogic.Algorithms
             if (position == null) throw new ArgumentNullException(nameof(position));
             if (san == null) throw new ArgumentNullException(nameof(san));
 
-            //if (san == "O-O" || san == "O-O+" || san == "O-O#")
-            //    return position.ValidateLegal(Move.Parse(position.Core.Turn == Color.White ? "e1-g1" : "e8-g8"));
-            //if (san == "O-O-O" || san == "O-O-O+" || san == "O-O-O#")
-            //    return position.ValidateLegal(Move.Parse(position.Core.Turn == Color.White ? "e1-c1" : "e8-c8"));
+            if (san == "O-O" || san == "O-O+" || san == "O-O#")
+                return position.ValidateLegal(Move.Parse(position.Core.Turn == Color.White ? "e1-g1" : "e8-g8"));
+            if (san == "O-O-O" || san == "O-O-O+" || san == "O-O-O#")
+                return position.ValidateLegal(Move.Parse(position.Core.Turn == Color.White ? "e1-c1" : "e8-c8"));
 
             var index = san.Length - 1;
             // remove chess and checkmate representation (if any)
@@ -237,11 +237,11 @@ namespace NeonDactyl.ChessLogic.Algorithms
                                 move = m;
                             }
             if (move == null) return null;
-            //if ((move.Annotations & Promotion) != 0)
-            //{
-            //    return position.ValidateLegal(
-            //        new Move(move.Move.FromCell, move.Move.ToCell, prom));
-            //}
+            if ((move.Annotations & Promotion) != 0)
+            {
+                return position.ValidateLegal(
+                    new Move(move.Move.FromCell, move.Move.ToCell, prom));
+            }
             return move;
         }
     }
